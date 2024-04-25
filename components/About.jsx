@@ -52,7 +52,7 @@ const About = () => {
           {/* <h2 className='py-4'>Who I Am</h2> */}
           <div className='mt-5'>
             <p className='py-2 text-gray-600 text-md  '>
-              I'm a motivated third-year software engineering student with a goal of becoming a full stack developer. I strive
+              I&apos;m a motivated third-year software engineering student with a goal of becoming a full stack developer. I strive
               to make meaningful applications and collaborate with others to make this happen.
 
             </p>
