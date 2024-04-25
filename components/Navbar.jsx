@@ -40,26 +40,26 @@ const Navbar = () => {
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/' className='text-xl '>
-          RJ
+            <h1 className='p-3 font-light text-4xl tracking-widest'>RJ</h1>
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex  pr-3'>
+            <li className='ml-10 text-sm uppercase '>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/#about'>About</Link>
-            </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase '>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='ml-10 text-sm uppercase '>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/resume'>Resume</Link>
+            <li className='ml-10 text-sm uppercase '>
+              <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            {/* <li className='ml-10 text-sm uppercase hover:border-b'>
+              <Link href='/resume'>Resume</Link>
+            </li> */}
+            <li className='ml-10 text-sm uppercase '>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
